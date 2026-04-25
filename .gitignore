@@ -1,0 +1,8 @@
+deliverables/
+
+# Local review and scratch screenshots
+*.png
+
+# Keep production asset images
+!assets/
+!assets/*.png
