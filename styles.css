@@ -1866,6 +1866,12 @@ h2 {
     min-height: auto;
     padding-top: 26px;
     padding-bottom: 42px;
+    background:
+      linear-gradient(rgba(251, 248, 241, 0.84), rgba(251, 248, 241, 0.92)),
+      url("https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=950&q=85");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 64%;
   }
 
   section[id],
@@ -1888,6 +1894,26 @@ h2 {
 
   .hero-actions {
     margin-top: 22px;
+  }
+
+  .hero::before,
+  .hero::after {
+    display: none;
+  }
+
+  .paper-note {
+    margin-bottom: 8px;
+    background: rgba(255, 252, 247, 0.84);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 12px 28px rgba(33, 27, 24, 0.06);
+  }
+
+  .hero-copy {
+    padding: 12px 0 8px;
+  }
+
+  .hero-art {
+    display: none;
   }
 
   .hero-art img {
